@@ -29,16 +29,16 @@ export const SOCIALS: Social[] = [
     linkTitle: `${SITE.title} on X`,
     icon: IconBrandX,
   },
-  {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/in/username/",
-    linkTitle: `${SITE.title} on LinkedIn`,
-    icon: IconLinkedin,
-  },
+  //{
+  //  name: "LinkedIn",
+   // href: "https://www.linkedin.com/in/username/",
+  //  linkTitle: `${SITE.title} on LinkedIn`,
+  //  icon: IconLinkedin,
+ // },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
-    linkTitle: `Send an email to ${SITE.title}`,
+    href: "mailto:alerilo96@hotmail.com",
+    linkTitle: `Envianos un correo a ${SITE.title}`,
     icon: IconMail,
   },
 ] as const;
@@ -52,8 +52,8 @@ export const SHARE_LINKS: Social[] = [
   },
   {
     name: "Facebook",
-    href: "https://www.facebook.com/sharer.php?u=",
-    linkTitle: `Share this post on Facebook`,
+    href: "https://www.facebook.com/condadocuantico",
+    linkTitle: `Compartelo En facebook`,
     icon: IconFacebook,
   },
   {
